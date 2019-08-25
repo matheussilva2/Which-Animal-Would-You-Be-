@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<title>Qual animal você seria?</title>
+	<meta name="theme-color" content="#805BCC" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+	<main>
+		<form id="form">
+			<div class="form-field">
+				<label for="name">Nome</label>
+				<input id="name" type="text" required/>
+			</div>
+			<div class="form-field">
+				<label for="name">Foto</label>
+				<input id="picture" type="file" accept="image/*" required/>
+			</div>
+			<button class="btn" type="submit">Descobrir</button>
+		</form>
+		<div id="result_container" class="result hidden">
+			<div class="result">
+				<img id="img_result" alt="resultado" />
+				<button class="btn" id="refazerBtn">Fazer novamente</button>
+			</div>
+		</div>
+	</main>
+
+	<script src="index.bundle.js"> </script>
+</body>
+</html>
